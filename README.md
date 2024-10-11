@@ -113,5 +113,3 @@ If want to run tests on local browser then go to config.properties file and chan
 mvn clean install -DexecutionType=LOCAL
 ```
 
-<img width="398" alt="image" src="https://github.com/user-attachments/assets/02d1744c-ecdd-4fca-9552-f6a2485073e2">
-
