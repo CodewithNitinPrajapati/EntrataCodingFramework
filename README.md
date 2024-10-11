@@ -67,21 +67,20 @@ Before you begin, ensure you have the following installed on your machine:
    - TestNg dependency:
      ```xml
      <dependency>
-         <groupId>org.testng</groupId>
-         <artifactId>testng</artifactId>
-         <version>7.7.0</version>
-         <scope>test</scope>
-     </dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.10.2</version>
+    </dependency>
      ```
 
 7. **Selenium Java Client**:
    - Selenium Java client dependency:
      ```xml
-     <dependency>
-         <groupId>org.seleniumhq.selenium</groupId>
-         <artifactId>selenium-java</artifactId>
-         <version>4.21.0</version>
-     </dependency>
+      <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.25.0</version>
+    </dependency>
      ```
 
 8. **Log4j Library**:
