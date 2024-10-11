@@ -1,5 +1,4 @@
 # EntrataCodingFramework
-<img width="398" alt="image" src="https://github.com/user-attachments/assets/02d1744c-ecdd-4fca-9552-f6a2485073e2">
 EntrataAutomationFramework/
 │
 ├── .idea/                   # IDE-specific files (for IntelliJ IDEA)
@@ -27,6 +26,7 @@ EntrataAutomationFramework/
 ├── .gitignore               # Git ignore file to exclude unnecessary files
 ├── pom.xml                  # Maven project file for dependencies and build config
 └── testng.xml               # TestNG configuration file for defining test suites
+<img width="398" alt="image" src="https://github.com/user-attachments/assets/02d1744c-ecdd-4fca-9552-f6a2485073e2">
 
 
 ## Prerequisites
