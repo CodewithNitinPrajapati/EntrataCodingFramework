@@ -28,7 +28,7 @@ Before you begin, ensure you have the following installed on your machine:
    - Ensure necessary plugins/extensions for Java and Maven support are installed.
 
 4.**Web Driver Manager**:
-   - Ensure WebDriverManager dependency added in po.xml either need to install browser specific binary driver.
+   - Ensure WebDriverManager dependency added in pom.xml either need to install browser specific binary driver.
    <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
     <dependency>
         <groupId>io.github.bonigarcia</groupId>
