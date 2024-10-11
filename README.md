@@ -77,4 +77,11 @@ Once you have all prerequisites installed, you can run your tests using the foll
 
 ```bash
 mvn clean test
+```
+
+## Note
+If want to run tests on local browser then go to config.properties file and change 'REMOTE' to 'LOCAL' or use this command 
+
+```bash
+mvn clean install -DexecutionType=LOCAL
 
