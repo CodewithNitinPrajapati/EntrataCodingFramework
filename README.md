@@ -2,9 +2,36 @@
 EntrataAutomationFramework/
 
  **Project Structure**:
-<img width="398" alt="image" src="https://github.com/user-attachments/assets/02d1744c-ecdd-4fca-9552-f6a2485073e2">
+```
+EntrataAutomationFramework/
+│
+├── .idea/                   # IDE-specific files (for IntelliJ IDEA)
+│
+├── src/
+│   ├── main/                # Main application code (if applicable)
+│   │   └── java/
+│   │       └── com.entarta/ # Package structure for your main code
+│   │           ├── core/    # Core utilities or base classes
+│   │           ├── pageObjects/ # Page Object Model classes for UI elements
+│   │           └── utils/   # Utility classes (e.g., helper functions)
+│   │
+│   └── resources/           # Non-Java resources (e.g., property files, configs)
+│
+├── test/                    # Test files
+│   ├── java/                # Test source code
+│   │   └── webTestCases/    # Test cases using Selenium WebDriver
+│   │
+│   └── resources/           # Test-specific resources (e.g., test data)
+│       └── TestData/        # Directory for test data files
+│           └── log4j2.xml    # Logging configuration file for Log4j
+│
+├── target/                  # Compiled output and build artifacts (auto-generated)
+│
+├── .gitignore               # Git ignore file to exclude unnecessary files
+├── pom.xml                  # Maven project file for dependencies and build config
+└── testng.xml               # TestNG configuration file for defining test suites
 
-
+```
 ## Prerequisites
 
 Before you begin, ensure you have the following installed on your machine:
@@ -84,4 +111,7 @@ If want to run tests on local browser then go to config.properties file and chan
 
 ```bash
 mvn clean install -DexecutionType=LOCAL
+```
+
+<img width="398" alt="image" src="https://github.com/user-attachments/assets/02d1744c-ecdd-4fca-9552-f6a2485073e2">
 
